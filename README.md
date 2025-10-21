@@ -17,7 +17,7 @@ This repository contains a Python script for controlling TurtleBot3 using ROS2 N
   - `command_type` (string) — either `"init"` for initial pose or `"goal"` for a navigation goal
   - `coordinates` (dict) — dictionary containing `x`, `y`, `z`, `w` values
 - Can be used in **threads** to run multiple commands concurrently
-- Publishes initial pose to `/robot_name/initialpose` if there is a robotname else if a single robot `/initialpose`
+- Publishes initial pose to `/robot_name/initialpose` if there is a robotname else if its a single robot `/initialpose`
 - Sends goals to `/robot_name/navigate_to_pose`
 
 ---
